@@ -1,3 +1,7 @@
+*.kicad_prl
+fp-info-cache
+IDP_Circuitry-backups/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
