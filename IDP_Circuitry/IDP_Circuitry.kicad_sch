@@ -5691,23 +5691,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 16734be3-1681-4a97-91ea-38b014b55331)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 200.66 49.53) (xy 200.66 59.69) (xy 184.15 59.69) (xy 184.15 49.53)
-			)
-			(stroke
-				(width 0.1778)
-				(type dash)
-				(color 0 0 194 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 17995e7b-c7cf-4b63-a101-f6710a49ae32)
+			(uuid 17a9fcea-06af-46bc-ab48-e2157ebfcd5e)
 		)
 	)
 	(rule_area
@@ -5723,39 +5707,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 3c709521-f084-44f5-9bc7-61e1f59728ce)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 184.15 62.23) (xy 184.15 72.39) (xy 200.66 72.39) (xy 200.66 62.23)
-			)
-			(stroke
-				(width 0.1778)
-				(type dash)
-				(color 0 0 194 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5e924ff9-3e1f-47c1-b4d9-9fe5ee47ae2d)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 276.86 20.32) (xy 210.82 20.32) (xy 210.82 107.95) (xy 276.86 107.95)
-			)
-			(stroke
-				(width 0.1778)
-				(type dash)
-				(color 0 0 194 1)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 6e242a50-dce4-46fe-852d-bf0e22ffce65)
+			(uuid 3490a028-0797-447b-b78c-df05bb7e43eb)
 		)
 	)
 	(rule_area
@@ -5771,7 +5723,55 @@
 			(fill
 				(type none)
 			)
-			(uuid b9792d09-198f-4f14-9d44-c20125c21fe1)
+			(uuid 57380667-54a7-4506-9d83-da119270cde0)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 200.66 49.53) (xy 200.66 59.69) (xy 184.15 59.69) (xy 184.15 49.53)
+			)
+			(stroke
+				(width 0.1778)
+				(type dash)
+				(color 0 0 194 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 5f91bb0c-6ac7-4531-8e7a-f2e5d4dbcf1e)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 276.86 20.32) (xy 210.82 20.32) (xy 210.82 107.95) (xy 276.86 107.95)
+			)
+			(stroke
+				(width 0.1778)
+				(type dash)
+				(color 0 0 194 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 8ae079fa-c703-47c1-be85-13e4d367847c)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 184.15 62.23) (xy 184.15 72.39) (xy 200.66 72.39) (xy 200.66 62.23)
+			)
+			(stroke
+				(width 0.1778)
+				(type dash)
+				(color 0 0 194 1)
+			)
+			(fill
+				(type none)
+			)
+			(uuid b836cd84-4eee-47f7-89ce-0bf12f6b148e)
 		)
 	)
 	(symbol
@@ -5990,7 +5990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11f84427-64b6-4f77-a82c-4b55e90d4acc")
-		(property "Reference" "J6"
+		(property "Reference" "UltrasonicDistanceSensor1"
 			(at 147.955 175.26 0)
 			(effects
 				(font
@@ -5998,7 +5998,7 @@
 				)
 			)
 		)
-		(property "Value" "UltrasonicDistanceSensor"
+		(property "Value" "Conn_01x03_Pin"
 			(at 147.955 177.8 0)
 			(effects
 				(font
@@ -6006,7 +6006,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 147.32 182.88 0)
 			(effects
 				(font
@@ -6045,7 +6045,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J6")
+					(reference "UltrasonicDistanceSensor1")
 					(unit 1)
 				)
 			)
@@ -6127,7 +6127,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "15b2f936-2a30-432e-a48b-32a691326136")
-		(property "Reference" "J02"
+		(property "Reference" "PinoutR1"
 			(at 184.15 28.702 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LibraryIDP:PinHeader_1x20_P2.54mm_Vertical_Flipped_21-40"
 			(at 184.15 54.61 0)
 			(effects
 				(font
@@ -6236,7 +6236,7 @@
 		(instances
 			(project ""
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J02")
+					(reference "PinoutR1")
 					(unit 1)
 				)
 			)
@@ -6520,7 +6520,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "44199812-9eb6-45ce-bf0c-eb87f43ad6b4")
-		(property "Reference" "YellowLED"
+		(property "Reference" "YellowLED1"
 			(at 66.04 143.51 90)
 			(effects
 				(font
@@ -6539,7 +6539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 60.96 144.78 0)
 			(effects
 				(font
@@ -6577,7 +6577,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "YellowLED")
+					(reference "YellowLED1")
 					(unit 1)
 				)
 			)
@@ -6726,7 +6726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d83d28-83e0-4d0b-88b6-c4b91a2b7270")
-		(property "Reference" "J1"
+		(property "Reference" "PushButton1"
 			(at 29.845 143.51 0)
 			(effects
 				(font
@@ -6734,7 +6734,7 @@
 				)
 			)
 		)
-		(property "Value" "PushButton"
+		(property "Value" "Conn_01x03_Pin"
 			(at 29.845 146.05 0)
 			(effects
 				(font
@@ -6742,7 +6742,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 29.21 151.13 0)
 			(effects
 				(font
@@ -6781,7 +6781,7 @@
 		(instances
 			(project ""
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J1")
+					(reference "PushButton1")
 					(unit 1)
 				)
 			)
@@ -6867,7 +6867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b426836-41fd-4551-997e-1985a09824bf")
-		(property "Reference" "J2"
+		(property "Reference" "LineTracker1"
 			(at 37.465 29.21 0)
 			(effects
 				(font
@@ -6875,7 +6875,7 @@
 				)
 			)
 		)
-		(property "Value" "LineTrackerSensor1"
+		(property "Value" "Conn_01x03_Pin"
 			(at 37.465 31.75 0)
 			(effects
 				(font
@@ -6883,7 +6883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 36.83 36.83 0)
 			(effects
 				(font
@@ -6922,7 +6922,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J2")
+					(reference "LineTracker1")
 					(unit 1)
 				)
 			)
@@ -7144,7 +7144,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82edf59d-cea8-470a-abb5-642e89992861")
-		(property "Reference" "U2"
+		(property "Reference" "SchmittTrigger1"
 			(at 77.47 148.59 0)
 			(effects
 				(font
@@ -7179,7 +7179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "\n                        \n                            4-ch, 2-input, 3-V to 18-V NAND gates with Schmitt-Trigger inputs\n                        \n"
+		(property "Description" "4-ch, 2-input, 3-V to 18-V NAND gates with Schmitt-Trigger inputs"
 			(at 88.9 167.64 0)
 			(effects
 				(font
@@ -7304,7 +7304,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "U2")
+					(reference "SchmittTrigger1")
 					(unit 1)
 				)
 			)
@@ -7405,7 +7405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 61.722 166.37 90)
 			(effects
 				(font
@@ -7526,7 +7526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d10c8777-bc04-46dd-9da4-960cbd7724d8")
-		(property "Reference" "J5"
+		(property "Reference" "LineTracker4"
 			(at 37.465 69.85 0)
 			(effects
 				(font
@@ -7534,7 +7534,7 @@
 				)
 			)
 		)
-		(property "Value" "LineTrackerSensor4"
+		(property "Value" "Conn_01x03_Pin"
 			(at 37.465 72.39 0)
 			(effects
 				(font
@@ -7542,7 +7542,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 36.83 77.47 0)
 			(effects
 				(font
@@ -7581,7 +7581,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J5")
+					(reference "LineTracker4")
 					(unit 1)
 				)
 			)
@@ -7678,7 +7678,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Radial_D5.0mm_H5.0mm_P2.00mm"
 			(at 64.4652 182.88 0)
 			(effects
 				(font
@@ -7729,7 +7729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de524eea-1617-413d-8b1b-9476038a38fc")
-		(property "Reference" "A1"
+		(property "Reference" "Pico_W1"
 			(at 245.9833 102.87 0)
 			(effects
 				(font
@@ -7747,7 +7747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Module:RaspberryPi_Pico_W_SMD_HandSolder"
+		(property "Footprint" "Module:RaspberryPi_Pico_Common_THT"
 			(at 243.84 115.57 0)
 			(effects
 				(font
@@ -7897,7 +7897,7 @@
 		(instances
 			(project ""
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "A1")
+					(reference "Pico_W1")
 					(unit 1)
 				)
 			)
@@ -7913,7 +7913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34cdecc-7394-40ef-ae63-2caf03cbf2e5")
-		(property "Reference" "J3"
+		(property "Reference" "LineTracker2"
 			(at 37.465 41.91 0)
 			(effects
 				(font
@@ -7921,7 +7921,7 @@
 				)
 			)
 		)
-		(property "Value" "LineTrackerSensor2"
+		(property "Value" "Conn_01x03_Pin"
 			(at 37.465 44.45 0)
 			(effects
 				(font
@@ -7929,7 +7929,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 36.83 49.53 0)
 			(effects
 				(font
@@ -7968,7 +7968,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J3")
+					(reference "LineTracker2")
 					(unit 1)
 				)
 			)
@@ -7984,7 +7984,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6f4f3eb-68f8-416c-a8e0-ffe38a0d88af")
-		(property "Reference" "J4"
+		(property "Reference" "LineTracker3"
 			(at 37.465 55.88 0)
 			(effects
 				(font
@@ -7992,7 +7992,7 @@
 				)
 			)
 		)
-		(property "Value" "LineTrackerSensor3"
+		(property "Value" "Conn_01x03_Pin"
 			(at 37.465 58.42 0)
 			(effects
 				(font
@@ -8000,7 +8000,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
 			(at 36.83 63.5 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 		(instances
 			(project "IDP_Circuitry"
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J4")
+					(reference "LineTracker3")
 					(unit 1)
 				)
 			)
@@ -8054,7 +8054,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ef7c72a2-06dd-42e4-90b5-2a9900298f77")
-		(property "Reference" "J01"
+		(property "Reference" "PinoutL1"
 			(at 161.036 28.702 0)
 			(effects
 				(font
@@ -8073,7 +8073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x20_P2.54mm_Vertical"
 			(at 161.29 54.61 0)
 			(effects
 				(font
@@ -8163,7 +8163,7 @@
 		(instances
 			(project ""
 				(path "/5a0366d0-ccf7-45ad-b08f-1738d84a7d2e"
-					(reference "J01")
+					(reference "PinoutL1")
 					(unit 1)
 				)
 			)
