@@ -1,4 +1,4 @@
-(footprint "DIP794W45P254L1969H508Q14"
+(footprint "CD4093BE"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "DIP794W45P254L1969H508Q14"
+	(property "Value" "CD4093BE"
 		(at 11.875 11.135 0)
 		(layer "F.Fab")
 		(uuid "d2c134d5-eda9-43d7-bb48-6d79c11de598")
